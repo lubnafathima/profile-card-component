@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+}
+body {
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-position: left -90% bottom 0%, right -90% bottom 130%;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-color: hsl(185, 75%, 39%);
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.container {
+    background-color: #fff;
+    border-radius: 25px;
+    min-width: 30%;
+    max-width: 90%;
+    min-height: auto;
+    max-height: auto;
+}
+.cont-top {
+    width: 100%;
+}
+.top-img {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+.cont-bottom {
+    /* position: relative; */
+}
+.victor-img {
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    /* position:absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;     */
+}
+.head {
+    color: var(--Dark-grayish-blue);
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.span, .para {
+    color: var(--Dark-gray);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.para {
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+.stat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 10%;
+    position: relative;
+}
+.stat::before {
+    content: '';
+    width: 100%;
+    border-bottom: solid 1px hsl(0, 0%, 59%, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* top: 50%; */
+    z-index: 1;
+}
+.stat-item {}
+.stat-h4 {
+    color: var(--Dark-grayish-blue);
+    font-size: 1rem;
+}
+.stat-p {
+    color: var(--Dark-gray);
+    font-size: .8rem;
+    margin-top: .3rem;
+}
