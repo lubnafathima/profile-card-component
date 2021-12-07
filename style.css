@@ -39,16 +39,11 @@ body {
     width: 100%;
     border-radius: 25px 25px 0 0;
 }
-.cont-bottom {
-    /* position: relative; */
-}
+.cont-bottom {}
 .victor-img {
     margin-top: -50px;
     border-radius: 50%;
     border: 5px solid #fff;
-    /* position:absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;     */
 }
 .head {
     color: var(--Very-dark-desaturated-blue);
@@ -79,7 +74,6 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    /* top: 50%; */
     z-index: 1;
 }
 .stat-item {}
