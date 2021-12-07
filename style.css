@@ -51,7 +51,7 @@ body {
     left: 50%;     */
 }
 .head {
-    color: var(--Dark-grayish-blue);
+    color: var(--Very-dark-desaturated-blue);
     font-weight: 900;
     font-size: 1.2rem;
     margin: 10px;
@@ -84,7 +84,7 @@ body {
 }
 .stat-item {}
 .stat-h4 {
-    color: var(--Dark-grayish-blue);
+    color: var(--Very-dark-desaturated-blue);
     font-size: 1rem;
 }
 .stat-p {
